@@ -333,10 +333,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '拜托你逊爆了欸';
-    if (score <= 60) return '勉勉强强';
-    if (score <= 100) return '得到老八真传了？';
-    if (score <= 150) return '老八附体';
+    if (score <= 50) return '拜托你逊爆了欸';
+    if (score <= 100) return '勉勉强强';
+    if (score <= 250) return '得到老八真传了？';
+    if (score <= 500) return '老八附体';
     return '你就是老八本人？';
 }
 
